@@ -28,11 +28,11 @@ All responses will have the form
 [
     {
         "taskID": "35872",
-        "description: "Do one thing"
+        "description": "Do this other thing"
     },
     {
         "taskID": "33812",
-        "description: "Do chores"
+        "description": "Do this other thing here" 
     }
 ]
 ```
@@ -55,7 +55,7 @@ If a task with the given number already exists, the existing task will be overwr
 ``` json
 {
   "taskID": "3021",
-  "description: "Do exercises"
+  "description": "Do this thing"
 }
 ```
 
