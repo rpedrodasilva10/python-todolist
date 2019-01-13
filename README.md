@@ -28,7 +28,7 @@ All responses will have the form
 [
     {
         "taskID": "35872",
-        "description: "Do homework"
+        "description: "Do one thing"
     },
     {
         "taskID": "33812",
