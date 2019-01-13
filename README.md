@@ -54,7 +54,7 @@ If a task with the given number already exists, the existing task will be overwr
 - `201 Created` on success
 ``` json
 {
-  "taskID": 3021,
+  "taskID": "3021",
   "description: "Do exercises"
 }
 ```
