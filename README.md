@@ -2,7 +2,7 @@
 
 # Objective
 
-The focus on this project is to fix and practice new skills that i've been reading about, Docker, Containers, API's RESTFUL, HTTP requests with flask and object persistence with shelve.
+The focus on this project is to fix and practice new skills that i've been reading about, Docker, Containers, RESTFUL API's, HTTP requests with flask and object persistence with shelve.
 
 ## Usage
 
