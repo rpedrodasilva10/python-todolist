@@ -2,7 +2,7 @@
 
 # Objective
 
-The focus on this project is to fix and practice new skills that i've been reading about, Docker, Containers, RESTFUL API's, HTTP requests with flask and object persistence with shelve.
+The focus on this project is to fix and practice new skills that i've been reading about, Docker, Containers, RESTful API's, HTTP requests with flask and object persistence with shelve.
 
 ## Usage
 
@@ -27,11 +27,11 @@ All responses will have the form
 ``` json
 [
     {
-        "taskID": "35872",
+        "task_id": "35872",
         "description": "Do this other thing"
     },
     {
-        "taskID": "33812",
+        "task_id": "33812",
         "description": "Do this other thing here" 
     }
 ]
@@ -45,7 +45,7 @@ All responses will have the form
 
 **Arguments**
 
-- `"taskID":int` a unique number for this task
+- `"task_id":int` a unique number for this task
 - `"description":string` the description of the task
 
 If a task with the given number already exists, the existing task will be overwritten.
@@ -54,13 +54,13 @@ If a task with the given number already exists, the existing task will be overwr
 - `201 Created` on success
 ``` json
 {
-  "taskID": "3021",
+  "task_id": "3021",
   "description": "Do this thing"
 }
 ```
 
 ## Show a specific task
-`GET /task/<taskID>`
+`GET /task/<task_id>`
 
 **Response**
 
@@ -71,7 +71,7 @@ If a task with the given number already exists, the existing task will be overwr
 
 **Definition**
 
-`DELETE/task/<taskID>`
+`DELETE/task/<task_id>`
 
 **Response**
 
