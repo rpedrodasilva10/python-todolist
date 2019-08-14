@@ -1,9 +1,9 @@
 version: '3.4'
 
 services:
-  todo-list:
+  todo_list:
     build: .
     volumes:
       - .:/usr/src/app
     ports:
-      - 5001:80
+      - 80:80
